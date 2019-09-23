@@ -15,9 +15,8 @@ class String
   end
 
   def count_sentences
-self.squeeze('.!?').count('.!?')
-binding.pry
-end
+    self.squeeze('.!?').count('.!?')
+  end
 end
 
 #    self.each do |word|
