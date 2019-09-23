@@ -15,11 +15,15 @@ class String
   end
 
   def count_sentences
-    self.split("?").length
+    if self.include?(".") && self.include?("?") && self.include?("!")
+      (self.split(".") && self.split("!") && self.split("?")).length
+    end
+
+#    self.split("?").length
 
 
     # new_array = []
-    # new_array << (self.split(".") && self.split("!") && self.split("?"))
+    # new_array <<
     # new_array.length
 
 #binding.pry
