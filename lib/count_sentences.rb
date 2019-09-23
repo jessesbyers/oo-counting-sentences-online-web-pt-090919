@@ -17,9 +17,9 @@ class String
   def count_sentences
     self.each do |word|
 
-    if self.include?(".") && self.include?("?") && self.include?("!")
-      (self.split(".") && self.split("!") && self.split("?")).length
-    end
+    # if self.include?(".") && self.include?("?") && self.include?("!")
+    #   (self.split(".") && self.split("!") && self.split("?")).length
+    # end
 
 #    self.split("?").length
 
