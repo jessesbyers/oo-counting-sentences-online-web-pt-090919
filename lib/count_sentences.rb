@@ -20,7 +20,7 @@ class String
         string.split(".", "?", "!").length
       end
 
-      
+
 #      binding.pry
         end
       end
@@ -34,5 +34,3 @@ class String
     # new_array = []
     # new_array <<
     # new_array.length
-
-
