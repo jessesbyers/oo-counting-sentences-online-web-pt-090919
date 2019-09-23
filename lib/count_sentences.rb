@@ -16,7 +16,14 @@ class String
 
   def count_sentences
     self.each do |word|
+      if word.end_with?(".", "?", "!")
+        string.split(".", "?", "!").length
+      end
 
+      
+#      binding.pry
+        end
+      end
     # if self.include?(".") && self.include?("?") && self.include?("!")
     #   (self.split(".") && self.split("!") && self.split("?")).length
     # end
@@ -28,6 +35,4 @@ class String
     # new_array <<
     # new_array.length
 
-binding.pry
-  end
-end
+
