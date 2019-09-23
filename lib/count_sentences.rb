@@ -18,7 +18,6 @@ class String
     new_array = []
     (self.split(".") && self.split("!") && self.split("?")).length
 
-#    self.split.length
-#binding.pry
+binding.pry
   end
 end
