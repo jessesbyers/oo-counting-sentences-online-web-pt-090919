@@ -15,8 +15,10 @@ class String
   end
 
   def count_sentences
-    self.split
-    binding.pry
+self.squeeze('.!?').count('.!?')
+binding.pry
+end
+end
 
 #    self.each do |word|
 #       if word.end_with?(".", "?", "!")
@@ -37,5 +39,3 @@ class String
     # new_array = []
     # new_array <<
     # new_array.length
-end
-end
