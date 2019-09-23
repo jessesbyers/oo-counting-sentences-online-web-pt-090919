@@ -21,7 +21,7 @@ class String
       end
 
 end
-#      binding.pry
+      binding.pry
         end
       end
     # if self.include?(".") && self.include?("?") && self.include?("!")
