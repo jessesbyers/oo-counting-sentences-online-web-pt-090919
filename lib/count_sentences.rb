@@ -38,3 +38,4 @@ class String
     # new_array <<
     # new_array.length
 end
+end
