@@ -20,7 +20,7 @@ class String
         string.split(".", "?", "!").length
       end
 
-
+end
 #      binding.pry
         end
       end
